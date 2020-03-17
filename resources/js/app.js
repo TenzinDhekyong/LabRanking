@@ -15,9 +15,12 @@ import VueRouter from 'vue-router'
 import { router } from './router'
 import Theme from './layout/Theme'
 import App from './App.vue';
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 Vue.use(VueRouter)
 Vue.use(Buefy)
+Vue.use(VueAxios,axios)
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -29,7 +32,7 @@ Vue.use(Buefy)
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-
+axios.defaults.baseURL=`/api`
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

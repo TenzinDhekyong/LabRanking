@@ -16,11 +16,17 @@
             <b-navbar-item href="/eyrc">
                 eYRC
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="/eyic">
                 eYIC
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="/eyrdc">
                 eYRDC
+            </b-navbar-item>
+            <b-navbar-item href="/tbt">
+                TBT
+            </b-navbar-item>
+            <b-navbar-item href="/other">
+                Other
             </b-navbar-item>
         </template>
 
@@ -50,10 +56,15 @@
           },{
             id:3, year:2015
           },{
-            id:4, year:2015
+            id:4, year:2016
           },{
-            id:5, year:2016
-          }],
+            id:5, year:2017
+          },{
+            id:6, year:2018
+          },{
+            id:7, year:2019
+          },
+          ],
           }
         },
         mounted() {

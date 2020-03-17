@@ -1950,10 +1950,8 @@ __webpack_require__.r(__webpack_exports__);
     return {
       data: [],
       columns: [{
-        field: 'elsi_clg_id',
-        label: 'College Code',
-        width: '40',
-        numeric: true
+        field: 'clg_code',
+        label: 'College Code'
       }, {
         field: 'college_name',
         label: 'College Name'
